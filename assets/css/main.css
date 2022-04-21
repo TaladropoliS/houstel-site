@@ -1,0 +1,13 @@
+body {
+  background-image: url("../../images/colico.jpg");
+}
+
+nav {
+  background-color: aqua;
+}
+nav p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=main.css.map */
