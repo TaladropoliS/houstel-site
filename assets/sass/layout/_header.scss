@@ -1,6 +1,10 @@
-header{
-  background-color: $fondoHeader;
-  p{
-    font-size: $parrafosPequenos;
+header {
+  p {
+    font-family: $font-openSans;
+    font-size: $fontSize-xxl;
+    font-weight: bold;
+    padding-left: 50px;
+    color: $blancoUno;
+    text-shadow: 3px 3px 3px $negroUno;
   }
 }
