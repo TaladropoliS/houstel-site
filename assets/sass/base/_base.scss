@@ -1,7 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url("../img/colico.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  -webkit-mask-image: linear-gradient(to top, transparent 20%, black 50%);
+  mask-image: linear-gradient(to top, transparent 20%, black 80%);
 }

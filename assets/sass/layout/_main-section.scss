@@ -1,7 +1,26 @@
-main{
-  //background-color: $fondoMain;
-  p{
-    //font-size: $parrafosPequenos;
-    //background-color: $fondoBonito;
+main {
+
+  section {
+
+    div {
+      margin: auto;
+      text-align: center;
+
+      h1 {
+        font-family: $font-playfair;
+        font-size: $fontSize-xxxxl;
+        color: $blancoUno;
+        padding: 0;
+        margin: 0;
+      }
+
+      p {
+        font-family: $font-openSans;
+        font-size: $fontSize-md;
+        padding-top: 15px;
+        color: $blancoUno;
+        text-shadow: 1px 1px 1px $negroUno;
+      }
+    }
   }
 }
