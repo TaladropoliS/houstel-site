@@ -2,9 +2,12 @@ main {
 
   section {
 
-    div {
+    #div-titulo {
+      padding-top: 30px;
       margin: auto;
       text-align: center;
+      -webkit-mask-image: linear-gradient(to top, transparent 10%, $negroUno 40%);
+      mask-image: linear-gradient(to top, transparent 10%, $negroUno 90%);
 
       h1 {
         font-family: $font-playfair;

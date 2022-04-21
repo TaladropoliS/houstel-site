@@ -10,14 +10,19 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  -webkit-mask-image: linear-gradient(to top, transparent 20%, black 50%);
-  mask-image: linear-gradient(to top, transparent 20%, black 80%);
 }
 
-form {
+forms form {
+  background: #ffffff;
+  background: linear-gradient(0deg, rgba(186, 186, 186, 0.6) 0%, rgba(255, 255, 255, 0.6) 50%, rgba(186, 186, 186, 0.6) 100%);
   margin: auto;
-  width: 450px;
-  background-color: #FFF;
+  width: 500px;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+forms form div {
+  width: 100%;
 }
 
 header p {
@@ -28,25 +33,89 @@ header p {
   padding-top: 15px;
   color: #FFF;
   text-shadow: 3px 3px 3px #393E41;
+  position: fixed;
 }
 
-main section div {
+main section #div-titulo {
+  padding-top: 30px;
   margin: auto;
   text-align: center;
+  -webkit-mask-image: linear-gradient(to top, transparent 10%, #393E41 40%);
+  mask-image: linear-gradient(to top, transparent 10%, #393E41 90%);
 }
-main section div h1 {
+main section #div-titulo h1 {
   font-family: "Playfair Display", serif;
   font-size: 130px;
   color: #FFF;
   padding: 0;
   margin: 0;
 }
-main section div p {
+main section #div-titulo p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   padding-top: 15px;
   color: #FFF;
   text-shadow: 1px 1px 1px #393E41;
+}
+
+.div-button {
+  text-align: center;
+}
+.div-button .button-verde {
+  background-color: #44BBA4;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  border: 0px transparent;
+  padding: 10px 30px 10px 30px;
+  margin-bottom: 10px;
+}
+.div-button .button-verde:hover {
+  background-color: #66C7B4;
+}
+.div-button .button-verde:focus {
+  background-color: #88D3C5;
+}
+.div-button .button-salmon {
+  background-color: #E94F37;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  border: 0px transparent;
+  padding: 10px 30px 10px 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.div-button .button-salmon:hover {
+  background-color: #EF7F6D;
+}
+.div-button .button-salmon:focus {
+  background-color: #F7BFB6;
+}
+
+input {
+  font-family: "Open Sans", sans-serif;
+  color: #5D6163;
+  border: 0px solid #393E41;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 8px 8px 8px;
+  width: 100%;
+}
+
+label {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #393E41;
+  border-radius: 5px;
+  margin-left: auto;
+  padding: 2px 8px 8px 8px;
+  width: 100%;
+  background-color: #818486;
 }
 
 /*# sourceMappingURL=main.css.map */

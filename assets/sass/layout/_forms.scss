@@ -1,6 +1,15 @@
+forms {
+  form {
+    background: $blancoTres;
+    background: linear-gradient(0deg, $blancoTres-Transp 0%, $blancoUno-Transp 50%, $blancoTres-Transp 100%);
+    margin: auto;
+    width: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 100px;
 
-form {
-  margin: auto;
-  width: 450px;
-  background-color: $blancoUno;
+    div {
+      width: 100%;
+    }
+  }
 }

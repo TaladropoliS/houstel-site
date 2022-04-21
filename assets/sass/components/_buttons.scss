@@ -1,4 +1,34 @@
-button{
-  //background-color: $fondoBonito;
-  //font-size: $misTitulos;
+.div-button {
+text-align: center;
+  .button-verde {
+    background-color: $verdeUno;
+    font-family: $font-openSans;
+    font-size: $fontSize-sm;
+    color: $blancoTres;
+    border: 0px transparent;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 10px;
+  }
+  .button-verde:hover {
+    background-color: $verdeDos;
+  }
+  .button-verde:focus {
+    background-color: $verdeTres;
+  }
+  .button-salmon {
+    background-color: $salmonUno;
+    font-family: $font-openSans;
+    font-size: $fontSize-sm;
+    color: $blancoTres;
+    border: 0px transparent;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .button-salmon:hover {
+    background-color: $salmonDos;
+  }
+  .button-salmon:focus {
+    background-color: $salmonTres;
+  }
 }

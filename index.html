@@ -35,18 +35,20 @@
 
 <body>
 <header>
-    <p>Houstel COLICO</p>
+    <p>HOUSTEL COLICO</p>
 </header>
 
 <main>
     <section>
-        <div>
+        <div id="div-titulo">
             <p>Disfruta de los paisajes de</p>
             <h1>Chile</h1>
         </div>
-        <button type="submit">
-            Más destinos
-        </button>
+        <div class="div-button">
+            <button class="button-verde" type="submit">
+                Más destinos
+            </button>
+        </div>
     </section>
 </main>
 
@@ -54,9 +56,30 @@
     <form>
         <div>
             <label for="hotel">Lugar u Hotel</label><br>
-            <input type="text" id="hotel" placeholder="Escribe tu destio">
+            <input type="text" id="hotel" placeholder="Escribe tu destio"
+                   autofocus>
         </div>
-
+        <div>
+            <label for="llegada">Fecha de llegada</label><br>
+            <input type="text" id="llegada" placeholder="Busca tu llegada">
+        </div>
+        <div>
+            <label for="salida">Fecha de salida</label><br>
+            <input type="text" id="salida" placeholder="Busca tu salida">
+        </div>
+        <div>
+            <label for="alojamineto">Tipo de alojamineto</label><br>
+            <input type="text" id="alojamineto" placeholder="Cantidad de huéspedes">
+        </div>
+        <div>
+            <label for="habitaciones">Tipo de habitación</label><br>
+            <input type="text" id="habitaciones" placeholder="Cantidad de habitaciones">
+        </div>
+        <div class="div-button">
+            <button class="button-salmon" type="submit">
+                Más destinos
+            </button>
+        </div>
     </form>
 </forms>
 

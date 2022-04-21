@@ -1,0 +1,24 @@
+input {
+  font-family: $font-openSans;
+  color: $negroDos;
+  border: 0px solid $negroUno;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 8px 8px 8px;
+  width: 100%;
+}
+
+label {
+  display: inline-block;
+  font-family: $font-openSans;
+  font-size: $fontSize-sm;
+  font-weight: bold;
+  color: $negroUno;
+  border-radius: 5px;
+  margin-left: auto;
+  padding: 2px 8px 8px 8px;
+  width: 100%;
+  background-color: $negroTres;
+}
